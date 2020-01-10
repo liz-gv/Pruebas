@@ -1,0 +1,141 @@
+
+
+//* Extra Small - Celulares más grandes, tabletas pequeños*/
+@media only screen and (max-width: 600px){
+	a #logo{
+		display: none;
+	
+	}
+	nav{
+		height: 40px;
+		text-align: left;
+	}
+	#reserva{
+		position: fixed;
+		width: 70px;
+		height: 40px;
+		top: 0;
+		left: 80vw;
+		z-index: 1;
+	}
+	#reserva:hover{
+		width: 70px;
+		height: 40px;
+	}
+	/*main*/
+	main{
+		margin-top: 40px;
+	}
+	.box{
+		width: 70%;
+	}
+
+    #recamara{
+		height: 50vh;
+	}
+
+	.transparente{
+		height: 50vh;
+		bottom: 50vh;
+		text-align: left;
+	}
+	.res{
+
+		width: 30%;
+	   /*para dar margen y no queden junto*/
+	     padding-top: 20px;
+	  }
+	
+#submit{
+	margin-left: 30px;
+}
+#contrecamaras{
+	margin-top: -200px;
+}
+
+}
+
+
+/* Small- Tablets landscape*/
+@media only screen and (max-width: 768px){
+	a #logo{
+		display: none;
+	}
+	nav{
+		height: 40px;
+		text-align: left;
+	}
+	#reserva{
+		position: fixed;
+		width: 70px;
+		height: 40px;
+		top: 0;
+		left: 80vw;
+		z-index: 1;
+	}
+	#reserva:hover{
+		width: 70px;
+		height: 40px;
+	}
+	main{
+		margin-top: 40px;
+	}
+	.box{
+		width: 70%;
+	}
+	/*Recamaras*/
+	#recamara{
+		height: 50vh;
+	}
+
+	.transparente{
+		height: 50vh;
+		bottom: 50vh;
+		text-align: left;
+		
+	}
+
+
+.res{
+
+		width: 30%;
+		padding-top: 20px;
+	}
+
+#submit{
+	margin-left: 10px;
+}
+}
+
+
+/* Medium - Laptops o Computadoras de Escritorio*/
+@media only screen and (max-width: 992px){
+	#reserva{
+		left:75vw;
+	}
+
+#contrecamaras{
+	margin-top: -200px;
+}
+
+}
+
+
+/* large */
+@media only screen and (max-width: 1200px){
+	
+/*.transparente{
+		height: 20vh;
+		bottom: 50vh;
+		text-align: left;
+		
+	}*/
+}
+
+/* Extra large*/
+@media only screen and (min-width: 1200px){
+	
+}
+
+
+
